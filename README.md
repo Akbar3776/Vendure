@@ -22,15 +22,23 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 <img width="1022" height="537" alt="Image" src="https://github.com/user-attachments/assets/6b491b2d-e817-4449-a011-d99cb5d7d299" />
 <img width="1116" height="584" alt="image" src="https://github.com/user-attachments/assets/cb876054-3276-42ac-a0c6-e346e3a1f88f" />
 
+
+
 2. Login ke akun railway
 3. Buat new project di railway
 <img width="1118" height="583" alt="image" src="https://github.com/user-attachments/assets/53703781-fb9d-43be-8259-bb3ba622df24" />
 
+
+
 4. Pilih template
 <img width="1117" height="593" alt="image" src="https://github.com/user-attachments/assets/6ffe7929-4e4e-408a-8626-18c4899d3f21" />
 
+
+
 5. Ketik "Vendure" pada bagian search, lalu pilih Vendure oleh Rasmus puls
 <img width="1120" height="586" alt="image" src="https://github.com/user-attachments/assets/239ce578-e0ac-4059-a7f3-7daee8cbbff9" />
+
+
 
 6. Konfigurasi railway web server
 <img width="530" height="478" alt="image" src="https://github.com/user-attachments/assets/8785df04-4ddb-4daf-b8db-4143c4ecd1a9" />
@@ -51,8 +59,12 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 
 <img width="512" height="513" alt="image" src="https://github.com/user-attachments/assets/fbfe85f8-6580-4321-82d2-8e404cea01d6" />
 
+
+
 7. Klik Deploy, tunggu hingga proses selesai
 <img width="1201" height="628" alt="image" src="https://github.com/user-attachments/assets/bc44835e-f6dd-43d2-9138-7bd93bb2cb7b" />
+
+
 
 8. Buat Repository baru pada GitHub
 <img width="220" height="234" alt="image" src="https://github.com/user-attachments/assets/e0d464de-f2f3-47e1-b21c-93ce5072c41b" />
@@ -61,13 +73,19 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 10. Klik vendure-backend dan pilih Settings
 <img width="1211" height="627" alt="image" src="https://github.com/user-attachments/assets/e9817c2d-e2b5-4ca3-9771-d678e454779b" />
 
+
+
 11. Klik Disconnect dan Connect Repo
 <img width="1206" height="631" alt="image" src="https://github.com/user-attachments/assets/113b5e8b-805e-4db1-94bc-d7c0a9e07af1" />
+
+
 
 12. Pada bagian Connect Repo, pilih Repository yang diisi Project Vendure
 13. Lakukan hal yang sama pada vendure-storefront
 14. Klik Deploy untuk Apply changes
 <img width="1201" height="634" alt="image" src="https://github.com/user-attachments/assets/03b8cd07-262c-45cc-a714-4bd17aedeb0d" />
+
+
 
 15. Tunggu hingga proses selesai
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/06c369ea-8b95-4699-ab4c-2685b532a5b7" />
