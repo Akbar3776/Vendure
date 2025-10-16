@@ -11,10 +11,15 @@ Vendure adalah framework untuk Sistem Web Aplikasi E-Commerce dengan pendekatan 
 
 ## Instalasi
 
-- Prasyarat, apa saja yang harus diinstal sebelumnya.
+Prasyarat
+Sebelum memulai, pastikan Anda sudah memiliki:
+- Akun GitHub
+- Akun Railway
+- Repository untuk project vendure
 
   
 1. Buat akun railway dengan akun GitHub
+<img width="1022" height="537" alt="Image" src="https://github.com/user-attachments/assets/6b491b2d-e817-4449-a011-d99cb5d7d299" />
 2. Login ke akun railway
 3. Buat new project di railway
 4. Pilih template
