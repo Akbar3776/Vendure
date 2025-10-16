@@ -6,7 +6,7 @@
 
 ## Sekilas Tentang
 
-Vendure adalah framework untuk Sistem Web Aplikasi E-Commerce dengan pendekatan "headless framework" yang memisahkan antara frontend dengan backend.
+Vendure adalah framework untuk sistem web aplikasi E-Commerce dengan pendekatan "headless framework" yang memisahkan antara frontend dengan backend.
 
 
 ## Instalasi
