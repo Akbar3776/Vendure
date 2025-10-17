@@ -86,28 +86,6 @@ services:
       DB_NAME: ${DB_NAME}
       DB_USERNAME: ${DB_USERNAME}
       DB_PASSWORD: ${DB_PASSWORD}
-  worker:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    command: ["npm", "run", "start:worker"]
-    volumes:
-      - /usr/src/app
-    environment:
-      DB_HOST: ${DB_HOST}
-      DB_PORT: ${DB_PORT}
-      DB_NAME: ${DB_NAME}
-      DB_USERNAME: ${DB_USERNAME}
-      DB_PASSWORD: ${DB_PASSWORD}
-  database:
-    image: postgres
-    volumes:
-      - /var/lib/postgresql/data
-    ports:
-      - "${DB_PORT}:${DB_PORT}"
-    environment:
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: ${POSTGRES_DB}
 ```
 ```
 Dockerfile
