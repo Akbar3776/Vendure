@@ -109,6 +109,26 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
 ```
+```
+Dockerfile
+```
+```
+FROM node:20
+
+WORKDIR /usr/src/app
+
+COPY package.json ./
+COPY package-lock.json ./
+RUN npm install --production
+RUN npm install -g concurrently
+
+COPY . .
+
+RUN npm run build
+
+CMD ["sh", "-c", "npm run seed:once && npm run start"]
+```
+
 
 Sementara itu, Railway menjalankan railway pack untuk vendure-storefront
 ```
