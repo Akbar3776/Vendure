@@ -201,7 +201,34 @@ railway variables --set "SUPERADMIN_PASSWORD=rahasia" --set "SUPERADMIN_USERNAME
 ## Cara Pemakaian
 
 1. buka link https://vendure-backend-production-4c15.up.railway.app/admin/
-2. Login dengan username dan password 
+2. Login dengan username dan password
+  <img width="1919" height="866" alt="LOGIN" src="https://github.com/user-attachments/assets/a0fa0afb-bced-4194-9c0d-5383d9c47622" />
+3. Sebelum mengupload product maupun collection admin akan ke homepage terlebih dahulu
+  <img width="1919" height="870" alt="Screenshot 2025-10-17 193954" src="https://github.com/user-attachments/assets/ad4b28c7-9c5f-4a07-a6b3-2f54051f6a34" />
+4. Sebelum membuat product, jika ingin productnya menjadi zero tax maupun menggunakan tax khusus maka admin perlu menceklis dibagian settings -> tax rates
+   <img width="1919" height="864" alt="Group 9" src="https://github.com/user-attachments/assets/891d3e74-0adb-42c2-8a48-47d57bdd54d3" />
+  Pada bagian ini selain admin bisa menggunakan settings tax yang sudah ada, admin juga bisa mencustom new tax rate sesuai kriteria barang dan regionalnya
+5. **Create Product**
+   <img width="1919" height="1735" alt="CREATE PRODUCT" src="https://github.com/user-attachments/assets/ad88b178-603a-45e3-af81-34859922756d" />
+   - Pada bagian kiri di homepage terlihat opsi Products yang dimana setelah di klik akan muncul halaman dengan tombol **New Product**
+   - Setelah mengklik New Product admin bisa langsung mengisi untuk Product Name juga dengan Descriptionnya
+     
+   <img width="1919" height="2597" alt="ADD ASSET" src="https://github.com/user-attachments/assets/b68b9bd4-a4af-463c-ab37-eb63d850b53a" />
+   - Setelah Product Name dan juga Description terisi admin bisa mengisikan asset maupun gambar product
+   - Untuk tahapannya :
+     - Klik add asset
+     - Upload asset dan pilih gambar yang ingin diupload (bisa lebih dari 1)
+     - Add asset untuk product
+
+   <img width="3838" height="1742" alt="FILL OUT PRODUCT" src="https://github.com/user-attachments/assets/3d84e4a1-79fc-4c4c-aede-6929f8434667" />
+
+   - Selanjutnya admin mengatur Product Variants dan juga Harga
+   - Untuk tahapannya :
+     - Add options -> isi Option dan juga Option value. Contoh tertera digambar
+     - Macam variants akan langsung muncul dan admin bisa langsung mengisikan harga dan stock secara manual untuk setiap variant
+   - Setelah terisi semua Klik Create
+   - Setelah muncul pop up dengan kalimat **Create New Product** maka admin berhasil menambahkan product baru untuk dijual
+
 - 
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
