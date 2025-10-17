@@ -6,7 +6,7 @@
 
 ## Sekilas Tentang
 
-Vendure adalah framework untuk sistem web aplikasi E-Commerce dengan pendekatan "headless framework" yang memisahkan antara frontend dengan backend.
+Vendure adalah headless e-commerce framework berbasis Node.js dan TypeScript, dibangun di atas NestJS. Vendure berfokus pada arsitektur modular dan fleksibel untuk pengembangan aplikasi e-commerce modern yang bisa diintegrasikan dengan berbagai frontend seperti React, Vue, atau Angular.
 
 
 ## Instalasi via Railway
@@ -232,10 +232,33 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 ## Pembahasan
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+### Kelebihan
+#### 1. Berbasis TypeScript & NestJS
+Vendure dibangun sepenuhnya menggunakan TypeScript di atas framework NestJS yang kuat dan terstruktur. Hal ini membantu menjaga kualitas kode, meminimalkan bug, serta memudahkan kolaborasi antaranggota tim.
+#### 2. Headless & Bebas Desain Frontend.
+Dengan arsitektur headless, sistem backend Vendure terpisah sepenuhnya dari tampilan frontend. Kami dapat membangun antarmuka pengguna sesuai kebutuhan menggunakan React, Vue, atau framework lain tanpa batasan template bawaan.
+#### 3. Sistem Plugin yang Fleksibel.
+Vendure menyediakan sistem plugin modular yang memungkinkan kami menambahkan fitur khusus—seperti sistem poin, integrasi pembayaran, atau pengiriman—tanpa mengubah kode inti.
+#### 4. Fitur yang Tersedia Siap untuk Komersial.
+Secara bawaan, Vendure mendukung banyak channel, bahasa, mata uang, dan fitur lainnya. Sehingga kelebihan ini menjadikannya siap digunakan untuk kegiatan berskala menengah hingga enterprise.
+
+### Kekurangan
+#### 1. Ekosistem Masih Terbatas.
+Jumlah plugin dan integrasi pihak ketiga belum sebanyak platform besar seperti Medusa atau Shopify, sehingga beberapa fitur perlu dikembangkan manual.
+#### 2. Membutuhkan Pemahaman Teknis yang Kuat.
+Karena berorientasi pada developer, penggunaan Vendure memerlukan pemahaman terhadap Node.js, TypeScript, dan GraphQL.
+#### 3. Kesulitan Pengembangan bagi Pemula.
+Struktur dan arsitektur Vendure cukup kompleks. Dibutuhkan waktu untuk memahami dan menyesuaikannya sebelum dapat melakukan kustomisasi lanjutan.
+
+### Perbandingan dengan Medusa
+
+| Aspek                         | **Vendure**         | **Medusa**                       | **Analisis Singkat**                                                   |
+| :---------------------------- | :------------------ | :------------------------------- | :--------------------------------------------------------------------- |
+| **Basis Pemrograman**         | TypeScript & NestJS | JavaScript & Express.js          | Vendure lebih aman secara tipe data, ideal untuk proyek kolaboratif.   |
+| **Komunikasi Data (API)**     | GraphQL             | REST API                         | GraphQL lebih efisien dan fleksibel, REST lebih mudah dipahami pemula. |
+| **Fitur untuk Komersial**     | Fitur bawaan        | Perlu konfigurasi tambahan       | Vendure unggul dalam manajemen multi-channel.                          |
+| **Fleksibilitas Kustomisasi** | Plugin modular      | Modular hingga level core        | Medusa sedikit lebih bebas dalam modifikasi mendalam.                  |
+| **Komunitas & Ekosistem**     | Aktif namun kecil   | Lebih besar dan berkembang cepat | Medusa unggul dalam jumlah plugin dan sumber belajar.                  |
 
 
 ## Referensi
