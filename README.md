@@ -19,33 +19,29 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 
 <br>
 
-1. **Buat akun railway dengan akun GitHub**  
+1. **Buat akun railway dengan akun GitHub dan login ke akun railway**  
 <img width="1022" height="537" alt="Image" src="https://github.com/user-attachments/assets/6b491b2d-e817-4449-a011-d99cb5d7d299" />  
 <br>  
 <img width="1116" height="584" alt="image" src="https://github.com/user-attachments/assets/cb876054-3276-42ac-a0c6-e346e3a1f88f" />  
 
 <br>
 
-2. **Login ke akun railway**  
-
-<br>
-
-3. **Buat new project di railway**  
+2. **Buat new project di railway**  
 <img width="1118" height="583" alt="image" src="https://github.com/user-attachments/assets/53703781-fb9d-43be-8259-bb3ba622df24" />  
 
 <br>
 
-4. **Pilih template**  
+3. **Pilih template**  
 <img width="1117" height="593" alt="image" src="https://github.com/user-attachments/assets/6ffe7929-4e4e-408a-8626-18c4899d3f21" />  
 
 <br>
 
-5. **Ketik "Vendure" pada bagian search, lalu pilih Vendure oleh Rasmus puls**  
+4. **Ketik "Vendure" pada bagian search, lalu pilih Vendure oleh Rasmus puls**  
 <img width="1120" height="586" alt="image" src="https://github.com/user-attachments/assets/239ce578-e0ac-4059-a7f3-7daee8cbbff9" />  
 
 <br>
 
-6. **Konfigurasi railway web server**  
+5. **Konfigurasi railway web server**  
 <img width="530" height="478" alt="image" src="https://github.com/user-attachments/assets/8785df04-4ddb-4daf-b8db-4143c4ecd1a9" />  
 <br>  
 <img width="536" height="511" alt="image" src="https://github.com/user-attachments/assets/f0a8a9d8-785b-406d-ba14-60fe667a5721" />  
@@ -66,7 +62,7 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 
 <br>
 
-7. **Klik Deploy, tunggu hingga proses selesai**  
+6. **Klik Deploy, tunggu hingga proses selesai**  
 <img width="1201" height="628" alt="image" src="https://github.com/user-attachments/assets/bc44835e-f6dd-43d2-9138-7bd93bb2cb7b" />  
 Railway akan menjalankan **docker-compose.yml** untuk vendure-backend  
 
