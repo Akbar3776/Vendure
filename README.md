@@ -71,7 +71,7 @@ docker-compose.yml
 ```
 version: "3"
 services:
-  server:
+  vendure-backend:
     build:
       context: .
       dockerfile: Dockerfile
@@ -81,12 +81,22 @@ services:
     volumes:
       - /usr/src/app
     environment:
-      DB_HOST: ${DB_HOST}
-      DB_PORT: ${DB_PORT}
-      DB_NAME: ${DB_NAME}
-      DB_USERNAME: ${DB_USERNAME}
-      DB_PASSWORD: ${DB_PASSWORD}
+      APP_ENV= "production"
+      ASSET_VOLUME_PATH= ${{RAILWAY_VOLUME_MOUNT_PATH}}
+      COOKIE_SECRET= "secret"
+      DB_HOST= ${{Postgres.PGPRIVATEHOST}}
+      DB_NAME= ${{Postgres.PGDATABASE}}
+      DB_PASSWORD= ${{Postgres.PGPASSWORD}}
+      DB_PORT= ${{Postgres.PGPRIVATEPORT}}
+      DB_SCHEMA= "public"
+      DB_USERNAME= ${{Postgres.PGUSER}}
+      PUBLIC_DOMAIN= ${{RAILWAY_PUBLIC_DOMAIN}}
+      STOREFRONT_URL= ${{vendure-storefront.RAILWAY_PUBLIC_DOMAIN}}
+      SUPERADMIN_PASSWORD= "superadmin"
+      SUPERADMIN_USERNAME= "superadmin"
+      TEMPLATE_REPORTER_URL= "https://railway-template-reporter-production.up.railway.app"
 ```
+
 ```
 Dockerfile
 ```
