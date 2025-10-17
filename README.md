@@ -202,50 +202,107 @@ railway variables --set "SUPERADMIN_PASSWORD=rahasia" --set "SUPERADMIN_USERNAME
 
 1. **Buka link untuk admin**  
    https://vendure-backend-production-4c15.up.railway.app/admin/
+<br>
 
 2. **Login dengan username dan password**  
+<br>
 
    <img width="1919" height="866" alt="LOGIN" src="https://github.com/user-attachments/assets/a0fa0afb-bced-4194-9c0d-5383d9c47622" />
+<br><br>
 
 3. **Sebelum mengupload product maupun collection admin akan ke homepage terlebih dahulu**  
+<br>
 
    <img width="1919" height="870" alt="Screenshot 2025-10-17 193954" src="https://github.com/user-attachments/assets/ad4b28c7-9c5f-4a07-a6b3-2f54051f6a34" />
+<br><br>
 
 4. **Sebelum membuat product, jika ingin productnya menjadi zero tax maupun menggunakan tax khusus maka admin perlu menceklis dibagian settings -> tax rates**  
+<br>
+
+   Pada bagian ini selain admin bisa menggunakan settings tax yang sudah ada, admin juga bisa mencustom new tax rate sesuai kriteria barang dan regionalnya.  
+<br>
 
    <img width="1919" height="864" alt="Group 9" src="https://github.com/user-attachments/assets/891d3e74-0adb-42c2-8a48-47d57bdd54d3" />
-
-   Pada bagian ini selain admin bisa menggunakan settings tax yang sudah ada, admin juga bisa mencustom new tax rate sesuai kriteria barang dan regionalnya.
+<br><br>
 
 5. **Create Product**  
+<br>
+
+   Pada bagian kiri di homepage terlihat opsi **Products** yang dimana setelah diklik akan muncul halaman dengan tombol **New Product**.  
+   Setelah mengklik **New Product**, admin bisa langsung mengisi **Product Name** juga dengan **Description**-nya.  
+<br>
 
    <img width="1919" height="1735" alt="CREATE PRODUCT" src="https://github.com/user-attachments/assets/ad88b178-603a-45e3-af81-34859922756d" />
+<br>
 
-   - Pada bagian kiri di homepage terlihat opsi **Products** yang dimana setelah diklik akan muncul halaman dengan tombol **New Product**.  
-   - Setelah mengklik **New Product**, admin bisa langsung mengisi **Product Name** juga dengan **Description**-nya.  
+   Setelah **Product Name** dan juga **Description** terisi, admin bisa mengisikan **asset maupun gambar product**.  
+   Untuk tahapannya:
+   - Klik **Add asset**
+   - Upload asset dan pilih gambar yang ingin diupload (bisa lebih dari 1)
+   - Add asset untuk product  
+<br>
 
    <img width="1919" height="2597" alt="ADD ASSET" src="https://github.com/user-attachments/assets/b68b9bd4-a4af-463c-ab37-eb63d850b53a" />
+<br>
 
-   - Setelah **Product Name** dan juga **Description** terisi, admin bisa mengisikan **asset maupun gambar product**.  
-   - Untuk tahapannya:
-     - Klik **Add asset**
-     - Upload asset dan pilih gambar yang ingin diupload (bisa lebih dari 1)
-     - Add asset untuk product  
+   Selanjutnya admin mengatur **Product Variants** dan juga **Harga**.  
+   Untuk tahapannya:  
+   - **Add options** → isi Option dan juga Option value (contoh tertera digambar)  
+   - Macam variants akan langsung muncul dan admin bisa langsung mengisikan harga dan stock secara manual untuk setiap variant  
+   - Setelah terisi semua, klik **Create**.  
+   - Setelah muncul pop-up dengan kalimat **“Create New Product”**, maka admin berhasil menambahkan product baru untuk dijual.  
+<br>
 
    <img width="3838" height="1742" alt="FILL OUT PRODUCT" src="https://github.com/user-attachments/assets/3d84e4a1-79fc-4c4c-aede-6929f8434667" />
+<br><br>
 
-   - Selanjutnya admin mengatur **Product Variants** dan juga **Harga**.  
-   - Untuk tahapannya:  
-     - **Add options** → isi Option dan juga Option value (contoh tertera digambar)  
-     - Macam variants akan langsung muncul dan admin bisa langsung mengisikan harga dan stock secara manual untuk setiap variant  
-   - Setelah terisi semua, klik **Create**.  
-   - Setelah muncul pop-up dengan kalimat **“Create New Product”**, maka admin berhasil menambahkan product baru untuk dijual.
-           
+6. **Create Collection**  
+<br>
 
-- 
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+   Agar banyak product nanti terlihat lebih rapi dibuatlah collection untuk menggabungkan beberapa product dengan kategori yang sama.  
+   Untuk tahapan membuat collection adalah:
+   - Menuju page collection pada tab sebelah kiri dari homepage  
+   - Create New Collection  
+   - Mengisikan nama juga deskripsi dari collection tersebut  
+   - Mengatur filter yang terdiri dari beberapa kategori:
+     - By facet values
+     - By product variant name
+     - Manually select product variants
+     - Manually select products  
+   - Karena disini admin memilih *Manually select product* maka admin perlu memilih product terlebih dahulu  
+   - Setelah lengkap semua klik **Create**  
+   - Setelah muncul pop-up dengan kalimat **“Create New Collection”**, maka admin berhasil menambahkan Collection baru.  
+<br>
 
+   <img width="3838" height="2615" alt="CREATE COLLECTION" src="https://github.com/user-attachments/assets/f8f59609-8120-49c3-b6dd-186ab485fe90" />
+<br><br>
+
+7. **Update Product & Collection**  
+<br>
+
+   Jika admin menyadari ada kesalahan pengisian maka admin bisa memperbaikinya melalui update ini.  
+   Untuk tahapannya sendiri sangat mudah, jika ingin mengupdate product maka ke bagian product, jika ingin mengupdate collection maka ke bagian collection.  
+   Selanjutnya untuk tahap keduanya adalah:
+   - Klik product/collection yang ingin diupdate melalui *Name* yang tertera  
+   - Update product/collection  
+   - Klik tombol **Update** di pojok kanan halaman  
+   - Jika muncul pop up **"Updated Product / Updated Collection"**, maka proses update berhasil  
+<br>
+
+   <img width="3838" height="1743" alt="UPDATE" src="https://github.com/user-attachments/assets/5f276f65-a6b3-45fe-9faa-d38f03654cf6" />
+<br><br>
+
+8. **Pembatalan product maupun collection**  
+<br>
+
+   Untuk pembatalan hanya bisa mengubah visibilitas dari **Public** menjadi **Private**, untuk menyembunyikan product maupun collection yang ingin dihilangkan.  
+   Untuk tahapannya adalah:
+   - Buka bagian product maupun collection  
+   - Klik product/collection yang ingin dihilangkan melalui *Name* yang tertera  
+   - Ubah visibilitas  
+   - Klik tombol **Update** di pojok kanan halaman  
+   - Jika muncul pop up **"Updated Product / Updated Collection"**, maka proses penghapusan berhasil  
+     
 
 ## Pembahasan
 
