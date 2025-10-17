@@ -328,7 +328,11 @@ railway variables --set "SUPERADMIN_PASSWORD=rahasia" --set "SUPERADMIN_USERNAME
    - Klik product/collection yang ingin dihilangkan melalui *Name* yang tertera  
    - Ubah visibilitas  
    - Klik tombol **Update** di pojok kanan halaman  
-   - Jika muncul pop up **"Updated Product / Updated Collection"**, maka proses penghapusan berhasil  
+   - Jika muncul pop up **"Updated Product / Updated Collection"**, maka proses penghapusan berhasil
+  
+9. **Product dan collection muncul di web user**
+    <img width="1900" height="870" alt="image" src="https://github.com/user-attachments/assets/2584200b-ece6-4cfd-832c-1a068912b7ef" />
+
      
 
 ## Pembahasan
