@@ -11,59 +11,64 @@ Vendure adalah headless e-commerce framework berbasis Node.js dan TypeScript, di
 
 ## Instalasi via Railway
 
-Prasyarat
-Sebelum memulai, pastikan Anda sudah memiliki:
-- Akun GitHub
-- Akun Railway
-- Repository untuk project vendure
+## Prasyarat  
+Sebelum memulai, pastikan Anda sudah memiliki:  
+- Akun GitHub  
+- Akun Railway  
+- Repository untuk project vendure  
 
-  
-1. Buat akun railway dengan akun GitHub
-<img width="1022" height="537" alt="Image" src="https://github.com/user-attachments/assets/6b491b2d-e817-4449-a011-d99cb5d7d299" />
-<img width="1116" height="584" alt="image" src="https://github.com/user-attachments/assets/cb876054-3276-42ac-a0c6-e346e3a1f88f" />
+<br>
 
+1. **Buat akun railway dengan akun GitHub**  
+<img width="1022" height="537" alt="Image" src="https://github.com/user-attachments/assets/6b491b2d-e817-4449-a011-d99cb5d7d299" />  
+<br>  
+<img width="1116" height="584" alt="image" src="https://github.com/user-attachments/assets/cb876054-3276-42ac-a0c6-e346e3a1f88f" />  
 
+<br>
 
-2. Login ke akun railway
-3. Buat new project di railway
-<img width="1118" height="583" alt="image" src="https://github.com/user-attachments/assets/53703781-fb9d-43be-8259-bb3ba622df24" />
+2. **Login ke akun railway**  
 
+<br>
 
+3. **Buat new project di railway**  
+<img width="1118" height="583" alt="image" src="https://github.com/user-attachments/assets/53703781-fb9d-43be-8259-bb3ba622df24" />  
 
-4. Pilih template
-<img width="1117" height="593" alt="image" src="https://github.com/user-attachments/assets/6ffe7929-4e4e-408a-8626-18c4899d3f21" />
+<br>
 
+4. **Pilih template**  
+<img width="1117" height="593" alt="image" src="https://github.com/user-attachments/assets/6ffe7929-4e4e-408a-8626-18c4899d3f21" />  
 
+<br>
 
-5. Ketik "Vendure" pada bagian search, lalu pilih Vendure oleh Rasmus puls
-<img width="1120" height="586" alt="image" src="https://github.com/user-attachments/assets/239ce578-e0ac-4059-a7f3-7daee8cbbff9" />
+5. **Ketik "Vendure" pada bagian search, lalu pilih Vendure oleh Rasmus puls**  
+<img width="1120" height="586" alt="image" src="https://github.com/user-attachments/assets/239ce578-e0ac-4059-a7f3-7daee8cbbff9" />  
 
+<br>
 
+6. **Konfigurasi railway web server**  
+<img width="530" height="478" alt="image" src="https://github.com/user-attachments/assets/8785df04-4ddb-4daf-b8db-4143c4ecd1a9" />  
+<br>  
+<img width="536" height="511" alt="image" src="https://github.com/user-attachments/assets/f0a8a9d8-785b-406d-ba14-60fe667a5721" />  
+<br>  
+<img width="507" height="502" alt="image" src="https://github.com/user-attachments/assets/34e0289d-b323-4b9f-aec0-3590d123e123" />  
+<br>  
+<img width="530" height="500" alt="image" src="https://github.com/user-attachments/assets/fef0e3bc-afe2-43a7-9aae-b5a1c5b06aee" />  
+<br>  
+<img width="521" height="508" alt="image" src="https://github.com/user-attachments/assets/180225ad-d7e8-4e67-b554-7d8640869eee" />  
+<br>  
+<img width="519" height="511" alt="image" src="https://github.com/user-attachments/assets/6a7b32e2-dab7-4a13-9fa3-c520db6b1247" />  
+<br>  
+<img width="510" height="507" alt="image" src="https://github.com/user-attachments/assets/df28bed7-7f7d-4ab4-af92-4a229992465d" />  
+<br>  
+<img width="513" height="508" alt="image" src="https://github.com/user-attachments/assets/f00f94f3-270c-4113-b268-53c140a3f9f4" />  
+<br>  
+<img width="512" height="513" alt="image" src="https://github.com/user-attachments/assets/fbfe85f8-6580-4321-82d2-8e404cea01d6" />  
 
-6. Konfigurasi railway web server
-<img width="530" height="478" alt="image" src="https://github.com/user-attachments/assets/8785df04-4ddb-4daf-b8db-4143c4ecd1a9" />
+<br>
 
-<img width="536" height="511" alt="image" src="https://github.com/user-attachments/assets/f0a8a9d8-785b-406d-ba14-60fe667a5721" />
-
-<img width="507" height="502" alt="image" src="https://github.com/user-attachments/assets/34e0289d-b323-4b9f-aec0-3590d123e123" />
-
-<img width="530" height="500" alt="image" src="https://github.com/user-attachments/assets/fef0e3bc-afe2-43a7-9aae-b5a1c5b06aee" />
-
-<img width="521" height="508" alt="image" src="https://github.com/user-attachments/assets/180225ad-d7e8-4e67-b554-7d8640869eee" />
-
-<img width="519" height="511" alt="image" src="https://github.com/user-attachments/assets/6a7b32e2-dab7-4a13-9fa3-c520db6b1247" />
-
-<img width="510" height="507" alt="image" src="https://github.com/user-attachments/assets/df28bed7-7f7d-4ab4-af92-4a229992465d" />
-
-<img width="513" height="508" alt="image" src="https://github.com/user-attachments/assets/f00f94f3-270c-4113-b268-53c140a3f9f4" />
-
-<img width="512" height="513" alt="image" src="https://github.com/user-attachments/assets/fbfe85f8-6580-4321-82d2-8e404cea01d6" />
-
-
-
-7. Klik Deploy, tunggu hingga proses selesai
-<img width="1201" height="628" alt="image" src="https://github.com/user-attachments/assets/bc44835e-f6dd-43d2-9138-7bd93bb2cb7b" />
-Railway akan menjalankan docker-compose.yml untuk vendure-backend
+7. **Klik Deploy, tunggu hingga proses selesai**  
+<img width="1201" height="628" alt="image" src="https://github.com/user-attachments/assets/bc44835e-f6dd-43d2-9138-7bd93bb2cb7b" />  
+Railway akan menjalankan **docker-compose.yml** untuk vendure-backend  
 
 ```
 docker-compose.yml
