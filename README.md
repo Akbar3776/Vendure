@@ -128,28 +128,28 @@ docker pull ghcr.io/railwayapp-templates/postgres-ssl:17.6
 docker run ghcr.io/railwayapp-templates/postgres-ssl:17.6
 ```
 
-9. Buat Repository baru pada GitHub
+8. Buat Repository baru pada GitHub
 <img width="220" height="234" alt="image" src="https://github.com/user-attachments/assets/e0d464de-f2f3-47e1-b21c-93ce5072c41b" />
 
-10. Isi Repository baru yang telah dibuat dengan Repository https://github.com/Akbar3776/Vendure.git
-11. Klik vendure-backend dan pilih Settings
+9. Isi Repository baru yang telah dibuat dengan Repository https://github.com/Akbar3776/Vendure.git
+10. Klik vendure-backend dan pilih Settings
 <img width="1211" height="627" alt="image" src="https://github.com/user-attachments/assets/e9817c2d-e2b5-4ca3-9771-d678e454779b" />
 
 
 
-12. Klik Disconnect dan Connect Repo
+11. Klik Disconnect dan Connect Repo
 <img width="1206" height="631" alt="image" src="https://github.com/user-attachments/assets/113b5e8b-805e-4db1-94bc-d7c0a9e07af1" />
 
 
 
-13. Pada bagian Connect Repo, pilih Repository yang diisi Project Vendure
-14. Lakukan hal yang sama pada vendure-storefront
-15. Klik Deploy untuk Apply changes
+12. Pada bagian Connect Repo, pilih Repository yang diisi Project Vendure
+13. Lakukan hal yang sama pada vendure-storefront
+14. Klik Deploy untuk Apply changes
 <img width="1201" height="634" alt="image" src="https://github.com/user-attachments/assets/03b8cd07-262c-45cc-a714-4bd17aedeb0d" />
 
 
 
-16. Tunggu hingga proses selesai
+15. Tunggu hingga proses selesai
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/06c369ea-8b95-4699-ab4c-2685b532a5b7" />
 
 ## Instalasi via Railway CLI
