@@ -200,7 +200,9 @@ railway variables --set "SUPERADMIN_PASSWORD=rahasia" --set "SUPERADMIN_USERNAME
 
 ## Cara Pemakaian
 
-- Tampilan aplikasi web
+1. buka link https://vendure-backend-production-4c15.up.railway.app/admin/
+2. Login dengan username dan password 
+- 
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
