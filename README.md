@@ -119,6 +119,7 @@ yarn install --frozen-lockfile
 yarn run build
 yarn run start
 ```
+
 Database menggunakan Postgres yang di deploy dengan Docker
 ```
 docker pull ghcr.io/railwayapp-templates/postgres-ssl:17.6
