@@ -106,28 +106,23 @@ npm i -g @railway/cli
 railway login --browserless
 ```
 
-3. Buat baru folder
-```
-mkdir <nama-project-baru>
-```
-
-4. Buat new project railway
+3. Buat new project railway
 ```
 railway init
 ```
 
-5. Deploy dengan template vendure railway
+4. Deploy dengan template vendure railway
 ```
 railway deploy --template 6DeBLr
 ```
 
-6. Cek environment backend, frontend, postgres
+5. Cek environment backend, frontend, postgres
 ```
 railway service
 railway variables
 ```
 
-7. Contoh modifikasi environment
+6. Contoh modifikasi environment
 ```
 railway variables --set "SUPERADMIN_PASSWORD=rahasia" --set "SUPERADMIN_USERNAME=akbar3776"
 ```
