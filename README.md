@@ -97,28 +97,40 @@ Kebutuhan Sistem:
 Node.js 16 version
 
 1. Buka terminal dan install railway
+```
 npm i -g @railway/cli
+```
 
 2. Login akun railway
+```
 railway login --browserless
+```
 
 3. Buat baru folder
+```
 mkdir <nama-project-baru>
+```
 
 4. Buat new project railway
+```
 railway init
-
-railway init --template https://railway.com/deploy/6DeBLr
+```
 
 5. Deploy dengan template vendure railway
+```
 railway deploy --template 6DeBLr
+```
 
 6. Cek environment backend, frontend, postgres
+```
 railway service
 railway variables
+```
 
 7. Contoh modifikasi environment
+```
 railway variables --set "SUPERADMIN_PASSWORD=rahasia" --set "SUPERADMIN_USERNAME=akbar3776"
+```
 
 ## Konfigurasi (opsional)
 
