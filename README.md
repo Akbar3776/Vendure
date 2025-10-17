@@ -172,4 +172,3 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 - (https://docs.railway.com/guides/cli)
 - (https://funkyton.com/vendure-tutorial/)
 - (https://docs.vendure.io/guides/deployment/deploy-to-railway/)
-Cantumkan tiap sumber informasi yang anda pakai.
