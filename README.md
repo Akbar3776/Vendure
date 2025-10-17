@@ -110,6 +110,22 @@ services:
       POSTGRES_DB: ${POSTGRES_DB}
 ```
 
+Sementara itu, Railway menjalankan railway pack untuk vendure-storefront
+```
+railpack
+```
+```
+yarn install --frozen-lockfile
+yarn run build
+yarn run start
+```
+Database menggunakan Postgres yang di deploy dengan Docker
+```
+docker pull ghcr.io/railwayapp-templates/postgres-ssl:17.6
+```
+```
+docker run ghcr.io/railwayapp-templates/postgres-ssl:17.6
+```
 
 9. Buat Repository baru pada GitHub
 <img width="220" height="234" alt="image" src="https://github.com/user-attachments/assets/e0d464de-f2f3-47e1-b21c-93ce5072c41b" />
