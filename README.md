@@ -72,7 +72,10 @@ Sebelum memulai, pastikan Anda sudah memiliki:
 <br>  
 
 6. **Klik Deploy, tunggu hingga proses selesai**  
-<img width="1201" height="628" alt="image" src="https://github.com/user-attachments/assets/bc44835e-f6dd-43d2-9138-7bd93bb2cb7b" />  
+<img width="1201" height="628" alt="image" src="https://github.com/user-attachments/assets/bc44835e-f6dd-43d2-9138-7bd93bb2cb7b" />
+
+<br> 
+
 Railway akan menjalankan **docker-compose.yml** untuk vendure-backend  
          
 
